@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Clone</title>
+  <link rel="stylesheet" href="landing.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+  <nav class="container-header">
+    <ul id="mini-nav-bar-links">
+      <li><a href="www.google.com">Academics</a></li>
+      <li><a href="www.google.com">Community</a></li>
+      <li><a href="www.google.com">1-800-555-5555</a></li>
+      <li><a href="www.google.com">MY CS-LINK</a></li>
+      <li>
+        <select>
+          <option>English</option>
+          <option>Spanish</option>
+          <option>Mandarin</option>
+          <option>Cantonese</option>
+          <option>French</option>
+          <option>German</option>
+          <option>Korean</option>
+          <option>Japanese</option>
+        </select>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="header">
+    <div class="header-container">
+
+      <div class="header-logo">
+        <a>
+          <img src="images/sunrise-health-logo.png">
+        </a>
+      </div>
+
+      <div class="header-search">
+        <form>
+          <div class="search">
+            <input>Search</input>
+          </div>
+        </form>
+      </div>
+
+      <div id="header-links">
+        <ul class="links">
+          <li>
+              <button class="link-name">LOCATIONS</button>
+          </li>
+          <li>
+              <button class="link-name">PROGRAMS & SERVICES</button>
+          </li>
+          <li>
+              <button class="link-name">HEALTH LIBRARY</button>
+          </li>
+          <li>
+              <button class="link-name">PATIENTS & VISITORS</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="system-alert">
+
+  </div>
+
+  <div id="carousel">
+    <div class="slideshow">
+      <div class="slides">
+        <img src="https://images.pexels.com/photos/3992931/pexels-photo-3992931.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" style="width: 100%;">
+        <div class="text">
+          <p>Carousel One</p>
+        </div>
+      </div>
+      <div class="slides">
+        <img src="https://images.pexels.com/photos/3952126/pexels-photo-3952126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" style="width: 100%;">
+        <div class="text">
+          <p>Carousel Two</p>
+        </div>
+      </div>
+      <div class="slides">
+        <img src="https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" style="width: 100%;">
+        <div class="text">
+          <p>Carousel Three</p>
+        </div>
+      </div>
+      <div class="slides">
+        <img src="https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" style="width: 100%;">
+        <div class="text">
+          <p>Carousel Four</p>
+        </div>
+      </div>
+  
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+  
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+  <div class="cards">
+    <article class="card">
+      <header>
+          <h2>Choose a Doctor</h2>
+      </header>    
+      <img src="https://images.pexels.com/photos/3985170/pexels-photo-3985170.jpeg?cs=srgb&dl=pexels-gustavo-fring-3985170.jpg&fm=jpg" alt="Hot air balloons">
+      <div class="content">
+          <p> The idea of reaching the North Pole by means of balloons appears to have been entertained many years ago. </p>
+      </div>
+    </article>
+    <article class="card">
+      <header>
+          <h2>Finding a Location</h2>
+      </header>    
+      <img src="https://images.pexels.com/photos/3985170/pexels-photo-3985170.jpeg?cs=srgb&dl=pexels-gustavo-fring-3985170.jpg&fm=jpg" alt="Hot air balloons">
+      <div class="content">
+          <p> The idea of reaching the North Pole by means of balloons appears to have been entertained many years ago. </p>
+      </div>
+    </article>
+    <article class="card">
+      <header>
+          <h2>Look-up Condition</h2>
+      </header>    
+      <img src="https://images.pexels.com/photos/3985170/pexels-photo-3985170.jpeg?cs=srgb&dl=pexels-gustavo-fring-3985170.jpg&fm=jpg" alt="Hot air balloons">
+      <div class="content">
+          <p> The idea of reaching the North Pole by means of balloons appears to have been entertained many years ago. </p>
+      </div>
+    </article>
+  </div>
+
+  <div>
+    <h3>Text under cards</h3>
+    <p>lorem impsum</p>
+  </div>
+
+  <div class="superbox">
+    <div class="left">
+
+    </div>
+    <div class="right">
+
+    </div>
+  </div>
+
+  <footer>
+    <nav>
+      <div class="footer-main">
+        <div class="footer-main-link-list">
+          <label>Contribute</label>
+          <div class="link-list-item">
+            <ul>
+              <li>footer list item1</li>
+              <li>footer list item2</li>
+              <li>footer list item3</li>
+              <li>footer list item4</li>
+            </ul>
+          </div>
+          <label>Learn More</label>
+          <div class="link-list-item">
+            <ul>
+              <li>footer list item1</li>
+              <li>footer list item2</li>
+              <li>footer list item3</li>
+              <li>footer list item4</li>
+            </ul>
+          </div>
+          <label>For Professionals</label>
+          <div class="link-list-item">
+            <ul>
+              <li>footer list item1</li>
+              <li>footer list item2</li>
+              <li>footer list item3</li>
+              <li>footer list item4</li>
+            </ul>
+          </div>
+          <label>Connect</label>
+          <div class="link-list-item">
+            <ul>
+              <li>footer list item1</li>
+              <li>footer list item2</li>
+              <li>footer list item3</li>
+              <li>footer list item4</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </footer>
+  
+  <script type="text/javascript" src="landing.js"></script>
+</body>
+</html>
